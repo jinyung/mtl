@@ -9,7 +9,8 @@ mtl
 ``mtl`` align time series photos with markers (3 or 4 markers) provided as .TPS file (digitized with `TPSDig software <http://life.bio.sunysb.edu/morph/soft-dataacq.html>`_), and output the aligned photos and time-lapse movie.
 
 .. image:: images/demo.gif
-*Left: unaligned photo sequence; Right: aligned by ``mtl``*
+
+*Left: unaligned photo sequence; Right: aligned by* ``mtl``
 
 requires
 --------
@@ -51,6 +52,13 @@ The main function of ``mtl`` is ``align``, which provides more options. For furt
 preparing images and markers file
 ---------------------------------
 ``mtl`` supports batch processing of multiple time series photos. Different time series (such as 'individuals') and time points should be indicated in the file name of the images. For examples, ``1-1.tif``, ``1-2.tif``, ..., ``1-100.tif`` and ``a-1.tif``, ``a-2.tif``, ..., ``a-100.tif`` will be processed as two different time series of '1' and 'a' with time points of 1, 2, ..., 100. These images should be placed in a single directory. A dash '-' is used to separate the time series and time points here so this should be instructed to the program. Only a single ``.TPS`` file is required for processing multiple time series photos, and it should contains markers for all images in the directory to be processed.
+
+application
+-----------
+This tool was written for a friend's thesis, for monitoring organism's motility:
+
+  Lin, J-C. (2018). Effects of water-flow and distance from neighbours on the mobility of the turtle barnacle *Chelonibia testudinaria* (Crustacea: Cirripedia). (MSc Dissertation). National Taiwan Ocean University. Available at: https://hdl.handle.net/11296/8ue54q
+
 
 notes
 -----
