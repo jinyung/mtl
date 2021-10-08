@@ -59,6 +59,10 @@ This tool was written for a friend's thesis, for monitoring organism's motility:
 
   Lin, J-C. (2018). Effects of water-flow and distance from neighbours on the mobility of the turtle barnacle *Chelonibia testudinaria* (Crustacea: Cirripedia). (MSc Dissertation). National Taiwan Ocean University. Available at: https://hdl.handle.net/11296/8ue54q
 
+Which resulted in this publication:
+
+  `Five hundred million years to mobility: directed locomotion and its ecological function in a turtle barnacle <https://doi.org/10.1098/rspb.2021.1620>`_
+
 
 notes
 -----
